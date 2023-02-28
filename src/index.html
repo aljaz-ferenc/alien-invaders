@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" type="module" defer></script>
+    <script src="levels.js" type="module" defer></script>
+    <title>Alien Invaders</title>
+  </head>
+  <body>
+    <div class="heading">ALIEN INVADERS</div>
+    <img
+      src="./icons/ship.png"
+      width="40px"
+      height="50px"
+      class="ship item"
+      alt=""
+    />
+    <img
+      src="./icons/alien-green.png"
+      width="50px"
+      class="alien-green item"
+      alt=""
+    />
+    <img
+      src="./icons/alien-blue.png"
+      width="50px"
+      class="alien-blue item"
+      alt=""
+    />
+    <img
+      src="./icons/alien-red.png"
+      width="50px"
+      class="alien-red item"
+      alt=""
+    />
+    <img
+      src="./icons/bullet.png"
+      width="10px"
+      style="rotate: 90deg"
+      class="bullet item"
+      alt=""
+    />
+    <img
+      src="./icons/upgrade.png"
+      width="10px"
+      style="rotate: 90deg"
+      class="upgrade item"
+      alt=""
+    />
+    <div class="canvas-container">
+      <div class="choose-character">
+        <h3 class="characters-heading">Choose your battleship</h3>
+        <div class="characters">
+          <div class="character1 character" data-ship="1">
+            <img src="icons/ship1.png" alt="ship" />
+          </div>
+          <div class="character2 character" data-ship="2">
+            <img src="icons/ship2.png" alt="ship" />
+          </div>
+          <div class="character3 character" data-ship="3">
+            <img src="icons/ship3.webp" alt="ship" />
+          </div>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+      <div class="display">
+        <span class="display-level"></span>
+      </div>
+      <div class="win modal">
+        <h1>You WIN!</h1>
+        <button>Next Level</button>
+      </div>
+      <div class="lose modal">
+        <h1>You LOSE!</h1>
+        <button>Play Again?</button>
+      </div>
+      <div class="complete modal">
+        <h1>You have completed the game!</h1>
+        <button>Play Again?</button>
+      </div>
+    </div>
+    <div class="keyboard">
+      <div class="space key">SHOOT</div>
+      <div class="arrows">
+        <div class="bottom-row">
+          <div class="left arrow key">&LeftArrow;</div>
+          <div class="right arrow key">&RightArrow;</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
