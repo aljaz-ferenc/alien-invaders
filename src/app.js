@@ -197,16 +197,16 @@ function createAliens() {
 
     switch (level) {
         case 1:
-            rows = levelOne()
+            rows = levelOne
             break
         case 2:
-            rows = levelTwo()
+            rows = levelTwo
             break
         case 3:
-            rows = levelThree()
+            rows = levelThree
             break
         case 4:
-            rows = levelFour()
+            rows = levelFour
             break
     }
 
