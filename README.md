@@ -27,3 +27,6 @@ const levelFour = [
     [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
 ]
 ```
+
+## Try It Out
+The games is available to play on [this link](https://alien-invaders-af.netlify.app/).
