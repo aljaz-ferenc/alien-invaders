@@ -14,19 +14,5 @@ Periodically, players receive ammo upgrade drops, enabling battleships to shoot 
 
 ![Choose battleship](./readme-images/upgrade1.png)
 
-### Adding Levels
-
-Expanding the game with new levels is conveniently achievable through the `levels.js` file. Each level is represented by a 2D array, where the first dimension denotes rows and the second represents individual aliens. Aliens are assigned values of 0, 1, or 2, indicating their respective life count.
-```js
-
-const levelFour = [
-    [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-    [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
-    [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
-    [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
-    [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-]
-```
-
 ## Try It Out
 The games is available to play on [this link](https://alien-invaders-af.netlify.app/).
